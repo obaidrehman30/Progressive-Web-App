@@ -195,13 +195,6 @@
     });
   };
 
-  // Save list of cities to localStorage, see note below about localStorage.
-  app.saveSelectedCities = function() {
-    var selectedCities = JSON.stringify(app.selectedCities);
-    // IMPORTANT: See notes about use of localStorage.
-    localStorage.selectedCities = selectedCities;
-  };
-
   /************************************************************************
    *
    * Code required to start the app
